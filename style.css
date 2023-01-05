@@ -1,6 +1,73 @@
+@import url("https://use.typekit.net/zft7xwb.css");
+
 /* Remove initial padding and margin. Set default background color. */
 html,
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Set font to Open Sans. */
+body {
+  font-family: open-sans, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #F1F8FD;
+}
+
+/* Add width to prevent overflow for images. */
+img {
+  max-width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.about {
+  margin: 0 1rem 3rem;
+  text-align: center;
+}
+
+.section-center {
+  margin: 0 1rem;
+}
+
+.btn-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tab-btn {
+  border: none;
+  background-color: #D6DEEA;
+  height: 2.5rem;
+  font-size: 1rem;
+  display: block;
+}
+
+.tab-btn:hover {
+  background-color: #E5F2FA;
+}
+
+.tab-btn.active {
+  background-color: #FFFFFF;
+}
+
+.content {
+  display: none;
+}
+
+.content.active {
+  display: block;
+  background-color: #FFFFFF;
+  padding: 0 1rem 1rem;
+}
+
+h4 {
+  margin: 0 auto 1rem;
+  padding-top: 1rem;
+}
+
+.content p {
+  margin: 0;
 }
