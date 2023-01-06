@@ -28,9 +28,35 @@ img {
   text-align: center;
 }
 
+@media screen and (min-width: 700px) {
+  .about {
+    margin: 2rem 10% 3rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .about {
+    margin: 10% 20% 3rem;
+  }
+}
+
 .section-center {
   margin: 0 1rem;
 }
+
+@media screen and (min-width: 700px) {
+  .section-center {
+    margin: 0 10%;
+  }  
+}
+
+@media screen and (min-width: 900px) {
+  .section-center {
+    margin: 20% 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  }
 
 .btn-container {
   display: grid;
